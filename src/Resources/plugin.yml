@@ -1,0 +1,20 @@
+name: Winton
+version: 0.1
+description: Winton overwatch
+author: Nareon
+
+depend: [Vault]
+softdepend: []
+main: com.gmail.ffox257.rankup.main
+api-version: 1.13
+
+commands:
+  winton:
+    description: Buy Protectionstones
+    aliases: []
+  website:
+    description: Rankup Main Command
+    aliases: [ ]
+  discord:
+    description: Rankup Main Command
+    aliases: [ ]
