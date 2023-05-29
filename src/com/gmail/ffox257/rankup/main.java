@@ -45,11 +45,7 @@ public class main extends JavaPlugin {
                     Mes.setClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://www.spigotmc.org/members/jerzean.67685/"));
                     msg.add(Mes);
                     Mes = new TextComponent("");
-                    msg.add(Mes);
-                    Mes = new TextComponent(ChatColor.translateAlternateColorCodes('&', "Discord"));
-                    Mes.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, new Text("§fClick me to join the discord")));
-                    Mes.setClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "/psbuy bedrock"));
-                    msg.add(Mes);
+                    msg.add(Mes)
                     try {
                         for (TextComponent i : msg) {
                             p.spigot().sendMessage(i);
